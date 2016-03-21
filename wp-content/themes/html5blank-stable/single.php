@@ -42,7 +42,7 @@
 			<?php comments_template(); ?>
 
 		</article>
-		<!-- /article -->
+		<!-- /article --><h1 style="color:red;">Help</h1>
 
 	<?php endwhile; ?>
 

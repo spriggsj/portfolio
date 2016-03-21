@@ -11,3 +11,220 @@
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
 */
+
+
+
+
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 140px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #746451;
+
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 5px 0;
+  background-color: #272725;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+div.container.top h1{
+  color: #bb7314;
+  font-size: 48px;
+  line-height: 10px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(25, 25, 250, 0.5);
+}
+section.module.parallax-1 {
+  background-image: url("/wp-content/themes/html5blank-stable-child/img/napkin.png");
+ 
+}
+section.module.parallax-2 {
+  background-image: url("/wp-content/themes/html5blank-stable-child/img/weblue.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("/wp-content/themes/html5blank-stable-child/img/www.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("/wp-content/themes/html5blank-stable-child/img/quality.jpg");
+}
+section.module.parallax-5 {
+  background-image: url("/wp-content/themes/html5blank-stable-child/img/launch.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+    color: #746451;
+  }
+  section.module p {
+    font-size: 20px;
+
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+    margin-top: -20px;
+
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 100px;
+  }
+}
+
+  .slideRight{
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight; 
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-timing-function: ease-in-out; 
+  -webkit-animation-timing-function: ease-in-out;   
+
+  visibility: visible !important; 
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-150%);
+  }
+  50%{
+    transform: translateX(8%);
+  }
+  65%{
+    transform: translateX(-4%);
+  }
+  80%{
+    transform: translateX(4%);
+  }
+  95%{
+    transform: translateX(-2%);
+  }     
+  100% {
+    transform: translateX(0%);
+  } 
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-150%);
+  }
+  50%{
+    -webkit-transform: translateX(8%);
+  }
+  65%{
+    -webkit-transform: translateX(-4%);
+  }
+  80%{
+    -webkit-transform: translateX(4%);
+  }
+  95%{
+    -webkit-transform: translateX(-2%);
+  }     
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+/*///////////////////////////////////////////////NAV BAR /////////////////////////////////////////////*/
+.navbar-static-top{
+  background-color: #272725;
+}
+.navbar-inverse{
+  background-color: #272725;
+}
+.navbar{
+      margin-bottom: 0px;
+      color:#BB7314;
+}
+.navbar-inverse .navbar-brand{
+  color: #bb7314;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+  color: #bb7314;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+  color: #bb7314;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  color: #bb7314;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  background-color: #272725;
+  color: #bb7314;
+}
+.navbar-inverse .navbar-nav>li>a{
+  background-color: #272725;
+  color: #bb7314;
+}
+/*////////////////////////////////////////////////////////////footer/////////////////////////////////*/
+
+h3 {
+  color: #746451;
+}
+footer{
+  background-color: #272725;
+   color: #bb7314;
+   padding-bottom: 20px;
+   padding-top: 40px;
+   text-align: center;
+   margin-top: -50px;
+
+}
+
+
+div.container.social{
+  margin:auto;
+}
+li#footerLifacebook, li#footerLitwitter, li#footerLigithub{
+  list-style-type: none;
+}
+#copy{
+  text-align: center;
+  padding-left: 20px;
+}
+
